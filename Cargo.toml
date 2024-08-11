@@ -1,0 +1,48 @@
+[package]
+name = "hay"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/LunchTimeCode/hay"
+authors = ["Silen Locatelli"]
+description = "A tool to check if all is healthy"
+homepage = "https://github.com/LunchTimeCode/hay"
+
+[package.metadata.wix]
+upgrade-guid = "EF5E9305-8E11-4A24-BEB0-9E8950390D43"
+path-guid = "A9F56125-B7F9-4B2D-A5AB-A132A841BABC"
+license = false
+eula = false
+
+[dependencies]
+
+# The profile that 'cargo dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
+
+# Config for 'cargo dist'
+[workspace.metadata.dist]
+# The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
+cargo-dist-version = "0.19.1"
+# CI backends to support
+ci = "github"
+# The installers to generate for each app
+installers = ["shell", "powershell", "npm", "homebrew", "msi"]
+# A GitHub repo to push Homebrew formulas to
+tap = "LunchTimeCode/homebrew-tap"
+# Target platforms to build apps for (Rust target-triple syntax)
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
+# The archive format to use for windows builds (defaults .zip)
+windows-archive = ".tar.gz"
+# The archive format to use for non-windows builds (defaults .tar.xz)
+unix-archive = ".tar.gz"
+# A namespace to use when publishing this package to the npm registry
+npm-scope = "@lunchtimecode"
+# Path that installers should place binaries in
+install-path = "CARGO_HOME"
+# Publish jobs to run in CI
+publish-jobs = ["homebrew"]
+# Publish jobs to run in CI
+pr-run-mode = "plan"
+# Whether to install an updater program
+install-updater = true

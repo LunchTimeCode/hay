@@ -1,0 +1,13 @@
+{
+  "build": {
+    "path_prefix": "hay"
+  },
+  "styles": {
+    "favicon": "./static/favicon.ico"
+  },
+  "components": {
+    "mdbook": {
+      "path": "./docs"
+    }
+  }
+}

@@ -3,6 +3,7 @@
     "path_prefix": "hay"
   },
   "styles": {
+    "theme": "axodark",
     "favicon": "./static/favicon.ico"
   },
   "components": {

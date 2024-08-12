@@ -6,7 +6,7 @@
 
 Welcome to hay.
 
-<img src="https://github.com/lunchtimecode/hay/blob/main/static/hay.png?raw=true" alt="hay" width="50%" height="50%">
+<img src="https://github.com/lunchtimecode/hay/blob/main/static/hay.png?raw=true" alt="hay" width="20%" height="20%">
 
 
 Icon attribution:

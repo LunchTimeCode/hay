@@ -21,7 +21,7 @@ install:
 
 
 create_docs: install
-    dy markdown > ./docs/src/chapter_1.md
+    hy markdown > ./docs/src/chapter_1.md
 
 dist:
     cargo dist init

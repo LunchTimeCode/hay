@@ -1,67 +1,29 @@
-# Command-Line Help for `dy`
+# Command-Line Help for `hy`
 
-This document contains the help content for the `dy` command-line program.
+This document contains the help content for the `hy` command-line program.
 
 **Command Overview:**
 
-* [`dy`↴](#dy)
-* [`dy markdown`↴](#dy-markdown)
-* [`dy init`↴](#dy-init)
-* [`dy check`↴](#dy-check)
-* [`dy deps`↴](#dy-deps)
+* [`hy`↴](#hy)
+* [`hy markdown`↴](#hy-markdown)
 
-## `dy`
+## `hy`
 
-dreamy cli
+hay cli
 
-**Usage:** `dy [COMMAND]`
+**Usage:** `hy [COMMAND]`
 
 ###### **Subcommands:**
 
 * `markdown` — [STABLE] print markdown doc of qwit to std out
-* `init` — [STABLE] creates an example config
-* `check` — 
-* `deps` — 
 
 
 
-## `dy markdown`
+## `hy markdown`
 
 [STABLE] print markdown doc of qwit to std out
 
-**Usage:** `dy markdown`
-
-
-
-## `dy init`
-
-[STABLE] creates an example config
-
-**Usage:** `dy init`
-
-
-
-## `dy check`
-
-**Usage:** `dy check [OPTIONS] --token <TOKEN>`
-
-###### **Options:**
-
-* `-t`, `--token <TOKEN>`
-* `-o`, `--org <ORG>`
-* `-r`, `--repo <REPO>`
-
-
-
-## `dy deps`
-
-**Usage:** `dy deps [OPTIONS] --token <TOKEN>`
-
-###### **Options:**
-
-* `-t`, `--token <TOKEN>`
-* `-o`, `--org <ORG>`
-* `-r`, `--repo <REPO>`
+**Usage:** `hy markdown`
 
 
 

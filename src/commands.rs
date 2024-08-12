@@ -5,7 +5,7 @@ pub async fn figure() -> anyhow::Result<String> {
 
     let result: anyhow::Result<String> = match cli.command {
         Some(Commands::Markdown) => Ok(clap_markdown::help_markdown::<Cli>()),
-        None =>  Ok("try hy --help for information on how to use hay".to_string()),
+        None => Ok("try hy --help for information on how to use hay".to_string()),
     };
 
     result

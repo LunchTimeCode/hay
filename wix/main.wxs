@@ -123,9 +123,9 @@
                         <Component Id='binary0' Guid='*'>
                             <File
                                 Id='exe0'
-                                Name='hay.exe'
+                                Name='hy.exe'
                                 DiskId='1'
-                                Source='$(var.CargoTargetBinDir)\hay.exe'
+                                Source='$(var.CargoTargetBinDir)\hy.exe'
                                 KeyPath='yes'/>
                         </Component>
                     </Directory>

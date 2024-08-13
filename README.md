@@ -15,11 +15,6 @@ Code for probing is a hard fork from [allup](https://github.com/jcornaz/allup)
 The main idea came from allup, however the goal is to make this cli more distributable and to extend functionality in diffrent ways.
 
 ## Goals
-Goals:
 - generate github action (cron job)
 - server mode
 - generate docker image with server mode
-
-
-Icon attribution:
-<a href="https://www.flaticon.com/free-icons/straw" title="straw icons">Straw icons created by Freepik - Flaticon</a>

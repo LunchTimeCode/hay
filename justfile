@@ -20,8 +20,8 @@ install:
     echo ------------ verify done! ------------
 
 
-create_docs: install
-    hy markdown > ./docs/src/chapter_1.md
+create_docs:
+    just run markdown > ./docs/src/chapter_1.md
 
 dist:
     cargo dist init

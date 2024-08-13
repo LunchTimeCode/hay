@@ -27,7 +27,6 @@ dist:
     cargo dist init
     cargo dist generate
 
-
 # Run the tests
 test:
     cargo test
@@ -39,3 +38,11 @@ lint:
 
 fmt:
     cargo fmt
+
+check_deps:
+    cargo upgrades
+    
+install-tools:
+    cargo binstall cargo-dist
+    cargo install -f cargo-upgrades
+    cargo install --locked cargo-outdated

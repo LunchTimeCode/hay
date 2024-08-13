@@ -1,4 +1,7 @@
 mod commands;
+mod config;
+mod init;
+mod probe;
 
 use colored::Colorize;
 

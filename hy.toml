@@ -1,0 +1,9 @@
+[[endpoints]]
+name = "Github"
+url = "https://github.com/"
+timeout = 1000
+
+[[endpoints]]
+name = "Google"
+url = "https://google.com/"
+timeout = 1000

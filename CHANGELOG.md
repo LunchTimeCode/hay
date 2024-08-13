@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.0](https://github.com/LunchTimeCode/hay/compare/v0.1.0...v0.2.0) (2024-08-13)
+
+
+### Features
+
+* check command ([1dbfc96](https://github.com/LunchTimeCode/hay/commit/1dbfc9623f23d749dc90cfa48f5e5596f0e7c23d))
+
+
+### Bug Fixes
+
+* **deps:** update rust crate serde_json to v1.0.124 ([6331608](https://github.com/LunchTimeCode/hay/commit/6331608c7263b72df3a555f8662b810b6a611ad2))
+* **deps:** update serde monorepo to v1.0.207 ([b977f12](https://github.com/LunchTimeCode/hay/commit/b977f1223215628dcadcc1f1f8f703485cafcbc7))
+* format ([0762fbc](https://github.com/LunchTimeCode/hay/commit/0762fbcaaeae3fc44d6364be4edfe962a2823d67))
+* typo in command comment ([c259e7e](https://github.com/LunchTimeCode/hay/commit/c259e7ed6ebe521991a9f54d970b870a50b30be3))
+
 ## 0.1.0 (2024-08-12)
 
 

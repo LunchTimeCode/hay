@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/LunchTimeCode/hay/compare/v0.2.0...v0.3.0) (2024-08-14)
+
+
+### Features
+
+* adjust release ([4c0ef94](https://github.com/LunchTimeCode/hay/commit/4c0ef94b12dffaac60edee17b4831c45b2dec912))
+
 ## [0.2.0](https://github.com/LunchTimeCode/hay/compare/v0.1.0...v0.2.0) (2024-08-13)
 
 

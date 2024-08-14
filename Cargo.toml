@@ -31,7 +31,7 @@ serde_derive = "1"
 toml = { version = "0.8.19", default-features = false, features = ["parse", "display"] }
 url = { version = "2.5", features = ["serde"] }
 
-reqwest = { version = "0.12.4", features = ["blocking", "json"] }
+reqwest = { version = "0.12.4", features = ["blocking", "json", "native-tls-vendored"] }
 tokio = { version = "1", features = ["full"] }
 
 colored = "2"

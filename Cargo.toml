@@ -65,7 +65,7 @@ npm-scope = "@lunchtimecode"
 # Path that installers should place binaries in
 install-path = "CARGO_HOME"
 # Publish jobs to run in CI
-publish-jobs = ["homebrew"]
+publish-jobs = ["homebrew", "npm"]
 # Publish jobs to run in CI
 pr-run-mode = "plan"
 # Whether to install an updater program

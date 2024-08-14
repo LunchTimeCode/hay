@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/LunchTimeCode/hay/compare/v0.3.0...v0.3.1) (2024-08-14)
+
+
+### Bug Fixes
+
+* vendor open ssl ([4d10af7](https://github.com/LunchTimeCode/hay/commit/4d10af7c4c0d0c26cdd93d950a3d244e24c5bbfb))
+
 ## [0.3.0](https://github.com/LunchTimeCode/hay/compare/v0.2.0...v0.3.0) (2024-08-14)
 
 

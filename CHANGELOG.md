@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.4](https://github.com/LunchTimeCode/hay/compare/v0.3.3...v0.3.4) (2024-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update rust crate anyhow to v1.0.94 ([#73](https://github.com/LunchTimeCode/hay/issues/73)) ([aabef6b](https://github.com/LunchTimeCode/hay/commit/aabef6b492cc074accff4474f7ebc8f61873b28d))
+* **deps:** update rust crate clap to v4.5.22 ([#75](https://github.com/LunchTimeCode/hay/issues/75)) ([5124ba4](https://github.com/LunchTimeCode/hay/commit/5124ba4a8cc8daf6063e0df1eecc5804bd3b0acf))
+* **deps:** update rust crate clap to v4.5.23 ([#76](https://github.com/LunchTimeCode/hay/issues/76)) ([78d0719](https://github.com/LunchTimeCode/hay/commit/78d0719e1cbc297ad53854f88ddaefabb271fa90))
+* **deps:** update serde monorepo to v1.0.216 ([#77](https://github.com/LunchTimeCode/hay/issues/77)) ([536d635](https://github.com/LunchTimeCode/hay/commit/536d635dfed76e0a7a7426117b96a1256d7d142b))
+
 ## [0.3.3](https://github.com/LunchTimeCode/hay/compare/v0.3.2...v0.3.3) (2024-11-22)
 
 

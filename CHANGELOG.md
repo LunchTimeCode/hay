@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.4](https://github.com/LunchTimeCode/hay/compare/v0.3.3...v0.3.4) (2024-12-31)
+
+
+### Bug Fixes
+
+* **deps:** update rust crate anyhow to v1.0.94 ([#73](https://github.com/LunchTimeCode/hay/issues/73)) ([aabef6b](https://github.com/LunchTimeCode/hay/commit/aabef6b492cc074accff4474f7ebc8f61873b28d))
+* **deps:** update rust crate anyhow to v1.0.95 ([#80](https://github.com/LunchTimeCode/hay/issues/80)) ([2523da5](https://github.com/LunchTimeCode/hay/commit/2523da51e5bb5a3b24ea139c909bab22d172b6f0))
+* **deps:** update rust crate clap to v4.5.22 ([#75](https://github.com/LunchTimeCode/hay/issues/75)) ([5124ba4](https://github.com/LunchTimeCode/hay/commit/5124ba4a8cc8daf6063e0df1eecc5804bd3b0acf))
+* **deps:** update rust crate clap to v4.5.23 ([#76](https://github.com/LunchTimeCode/hay/issues/76)) ([78d0719](https://github.com/LunchTimeCode/hay/commit/78d0719e1cbc297ad53854f88ddaefabb271fa90))
+* **deps:** update rust crate reqwest to v0.12.10 ([#81](https://github.com/LunchTimeCode/hay/issues/81)) ([37e7eb3](https://github.com/LunchTimeCode/hay/commit/37e7eb303a611217bf3b2a189d8d9ef26435deba))
+* **deps:** update rust crate reqwest to v0.12.11 ([#82](https://github.com/LunchTimeCode/hay/issues/82)) ([d810b4d](https://github.com/LunchTimeCode/hay/commit/d810b4d7b40aefaac01120ba5abce775d96c30cc))
+* **deps:** update rust crate reqwest to v0.12.12 ([#84](https://github.com/LunchTimeCode/hay/issues/84)) ([1bdc24c](https://github.com/LunchTimeCode/hay/commit/1bdc24c7179eadb338044fc83f7758af97d8ee93))
+* **deps:** update rust crate serde_json to v1.0.134 ([#79](https://github.com/LunchTimeCode/hay/issues/79)) ([de70f50](https://github.com/LunchTimeCode/hay/commit/de70f5097ec3fe99a959901ded079bb6d40a80f0))
+* **deps:** update serde monorepo to v1.0.216 ([#77](https://github.com/LunchTimeCode/hay/issues/77)) ([536d635](https://github.com/LunchTimeCode/hay/commit/536d635dfed76e0a7a7426117b96a1256d7d142b))
+* **deps:** update serde monorepo to v1.0.217 ([#83](https://github.com/LunchTimeCode/hay/issues/83)) ([eda5204](https://github.com/LunchTimeCode/hay/commit/eda5204ed4574f2b89af6266f4f5f8234954417c))
+
 ## [0.3.3](https://github.com/LunchTimeCode/hay/compare/v0.3.2...v0.3.3) (2024-11-22)
 
 

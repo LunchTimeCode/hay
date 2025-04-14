@@ -37,7 +37,7 @@ tokio = { version = "1", features = ["full"] }
 colored = "2"
 main_error = "0.1.2"
 anyhow = "1.0.86"
-thiserror = "1.0"
+thiserror = "2.0"
 
 # The profile that 'cargo dist' will build with
 [profile.dist]

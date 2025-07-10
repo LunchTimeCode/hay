@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.5](https://github.com/LunchTimeCode/hay/compare/v0.3.4...v0.3.5) (2025-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update rust crate clap to v4.5.41 ([#138](https://github.com/LunchTimeCode/hay/issues/138)) ([b04d232](https://github.com/LunchTimeCode/hay/commit/b04d23241b71e16103b416c3c47756c109d05f69))
+* **deps:** update rust crate reqwest to v0.12.21 ([#134](https://github.com/LunchTimeCode/hay/issues/134)) ([4bec697](https://github.com/LunchTimeCode/hay/commit/4bec69715091f96e387afe40c77c0cdba96e5520))
+* **deps:** update rust crate reqwest to v0.12.22 ([#136](https://github.com/LunchTimeCode/hay/issues/136)) ([093c60c](https://github.com/LunchTimeCode/hay/commit/093c60c049c668b21fe2825f465e87caac1e7a0f))
+
 ## [0.3.4](https://github.com/LunchTimeCode/hay/compare/v0.3.3...v0.3.4) (2025-06-10)
 
 
